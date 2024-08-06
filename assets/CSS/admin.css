@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+.section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-link {
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.section-link:hover {
+    background-color: #45a049;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    margin-top: 20px;
+}
+
+.carousel div {
+    flex: 0 0 auto;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    background-color: #ddd;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.carousel div:last-child {
+    margin-right: 0;
+}
